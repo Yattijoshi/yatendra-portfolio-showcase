@@ -18,22 +18,16 @@ const Resume = () => {
           </p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-primary">
-          <div className="flex flex-col sm:flex-row justify-between items-center">
-            <div>
-              <h3 className="text-lg font-medium mb-2">My Resume</h3>
-              <p className="text-gray-600 mb-4">Click below to view or download my resume</p>
-            </div>
-            <a 
-              href="#" 
-              className="bg-primary hover:bg-primary/90 text-white font-medium py-2 px-6 rounded-lg transition-colors"
-              onClick={(e) => {
-                e.preventDefault();
-                alert("This is where you'd add your resume for download");
-              }}
-            >
-              View Resume (PDF)
-            </a>
+        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="p-6 border-b border-gray-200">
+            <h3 className="text-lg font-medium mb-2">My Resume</h3>
+          </div>
+          <div className="p-6">
+            <img 
+              src="/lovable-uploads/d78ffcdb-63a6-48fc-bf2e-ba32eb940ea5.png" 
+              alt="Yatendra Joshi's Resume" 
+              className="w-full max-w-3xl mx-auto rounded shadow-sm"
+            />
           </div>
         </div>
 

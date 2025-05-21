@@ -1,6 +1,7 @@
 
 import React from "react";
 import DosDonts from "../components/DosDonts";
+import VideoEmbed from "../components/VideoEmbed";
 
 const Introduction = () => {
   const introductionDos = [
@@ -32,6 +33,17 @@ const Introduction = () => {
             demeanor while being authentic helps create meaningful connections. I understand now that a good 
             introduction should be concise yet comprehensive, highlighting relevant skills and experiences.
           </p>
+        </div>
+
+        <div className="mb-8">
+          <h3 className="section-subtitle">Self Introduction Video</h3>
+          <p className="text-gray-600 mb-4">
+            Watch my self introduction video where I present myself and my background.
+          </p>
+          <VideoEmbed 
+            src="https://drive.google.com/file/d/1GvwQ_XG0a8yZCuLATPnshFv_XHAcKlr1/view?usp=drivesdk" 
+            title="Self Introduction"
+          />
         </div>
 
         <DosDonts dos={introductionDos} donts={introductionDonts} />
