@@ -36,16 +36,6 @@ const InterviewSkills = () => {
 
         <DosDonts dos={interviewDos} donts={interviewDonts} />
 
-        <div className="mt-10">
-          <h3 className="section-subtitle">Answering Interview Questions</h3>
-          <p className="text-gray-600 mb-4">
-            Watch me demonstrate effective techniques for answering common interview questions
-          </p>
-          <div className="bg-gray-200 rounded-lg p-8 flex items-center justify-center">
-            <p className="text-gray-500 italic">Interview practice video will be added here</p>
-          </div>
-        </div>
-
         <div className="mt-10 card">
           <h3 className="text-xl font-medium mb-4">Technical Interview Tips</h3>
           <ul className="space-y-3 text-gray-700">

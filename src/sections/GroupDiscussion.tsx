@@ -39,13 +39,6 @@ const GroupDiscussion = () => {
         </div>
 
         <DosDonts dos={gdDos} donts={gdDonts} />
-        
-        <div className="mt-10 card">
-          <h3 className="text-xl font-medium mb-4">My Group Discussion Experience</h3>
-          <div className="bg-gray-200 rounded-lg p-8 flex items-center justify-center">
-            <p className="text-gray-500 italic">Group discussion video will be added here</p>
-          </div>
-        </div>
       </div>
     </section>
   );
