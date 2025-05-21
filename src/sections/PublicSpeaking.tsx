@@ -1,8 +1,25 @@
 
 import React from "react";
 import VideoEmbed from "../components/VideoEmbed";
+import DosDonts from "../components/DosDonts";
 
 const PublicSpeaking = () => {
+  const publicSpeakingDos = [
+    "Practice before speaking",
+    "Make eye contact",
+    "Speak clearly and confidently",
+    "Use natural gestures",
+    "Stay within time"
+  ];
+
+  const publicSpeakingDonts = [
+    "Don't memorize word-for-word",
+    "Don't use filler words like \"um\" or \"like\"",
+    "Don't rush or speak too slowly",
+    "Don't turn your back to the audience",
+    "Don't panic if you forget something"
+  ];
+
   return (
     <section id="speaking" className="py-16 bg-gray-50">
       <div className="section-container">
@@ -18,15 +35,18 @@ const PublicSpeaking = () => {
           </p>
         </div>
 
-        <div className="space-y-12">
+        <DosDonts dos={publicSpeakingDos} donts={publicSpeakingDonts} />
+
+        <div className="space-y-12 mt-8">
           <div>
             <h3 className="section-subtitle">Extempore Video</h3>
             <p className="text-gray-600 mb-4">
               Watch my extempore speech where I discuss an impromptu topic with minimal preparation.
             </p>
-            <div className="bg-gray-200 rounded-lg p-8 flex items-center justify-center">
-              <p className="text-gray-500 italic">Video will be uploaded soon</p>
-            </div>
+            <VideoEmbed 
+              src="https://drive.google.com/file/d/1AT7ptAanNQ0wTfYQ7H_DDMMDF-CF0tBG/view?usp=drivesdk" 
+              title="Extempore Speech"
+            />
           </div>
 
           <div>
@@ -34,9 +54,10 @@ const PublicSpeaking = () => {
             <p className="text-gray-600 mb-4">
               Just A Minute (JAM) session where I speak continuously on a topic for one minute without hesitation.
             </p>
-            <div className="bg-gray-200 rounded-lg p-8 flex items-center justify-center">
-              <p className="text-gray-500 italic">Video will be uploaded soon</p>
-            </div>
+            <VideoEmbed 
+              src="https://drive.google.com/file/d/1m9FiSVeubpaeVrgdAH2DD9QqP4XFF0cZ/view?usp=drivesdk" 
+              title="JAM Session"
+            />
           </div>
         </div>
       </div>

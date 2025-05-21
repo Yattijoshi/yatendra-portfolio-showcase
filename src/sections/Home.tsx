@@ -25,13 +25,13 @@ const Home = () => {
           <div className="space-y-3">
             <div className="flex items-center">
               <span className="font-medium w-24">Email:</span>
-              <a href="mailto:yatendrajoshi@example.com" className="text-blue-600 hover:underline">
-                yatendrajoshi@example.com
+              <a href="mailto:joshi.yatendra0834@gmail.com" className="text-blue-600 hover:underline">
+                joshi.yatendra0834@gmail.com
               </a>
             </div>
             <div className="flex items-center">
               <span className="font-medium w-24">Phone:</span>
-              <span>+91 XXXXX XXXXX</span>
+              <span>+91 6377024341</span>
             </div>
             <div className="flex items-center">
               <span className="font-medium w-24">LinkedIn:</span>
@@ -49,7 +49,7 @@ const Home = () => {
         <div className="md:w-2/5">
           <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
             <img
-              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?crop=faces&cs=tinysrgb&fit=crop&h=600&w=500"
+              src="/lovable-uploads/4fc221f3-8f05-4b93-b483-bd13416484ab.png"
               alt="Yatendra Joshi"
               className="w-full h-auto object-cover"
             />
